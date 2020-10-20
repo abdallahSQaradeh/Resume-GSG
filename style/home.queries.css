@@ -59,9 +59,19 @@
   .futured-works {
     width: 100%;
     height: auto;
+    align-items: center;
   }
   .future-h h2 {
     text-align: center;
+  }
+  .w-2,
+  .w-3,
+  .hr-1,
+  .hr-2 {
+    display: none;
+  }
+  .horizantal-spliter {
+    width: 90%;
   }
   .w-1,
   .w-2,

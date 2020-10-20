@@ -19,6 +19,11 @@ nav .pages {
   align-items: center;
   padding: 10px 60px;
 }
+nav .menu {
+  display: none;
+  font-size: 50px;
+  float: right;
+}
 .pages li {
   padding: 10px 15px;
   font-size: 20px;
