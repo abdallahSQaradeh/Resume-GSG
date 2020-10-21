@@ -1,0 +1,94 @@
+@media screen and (max-width: 484px) {
+  nav .pages {
+    display: none;
+  }
+  nav .menu {
+    display: block;
+  }
+  .checkbox:checked ~ .sidebar {
+    transition: all ease-in-out 2s;
+    -webkit-transition: all ease-in-out 2s;
+    -moz-transition: all ease-in-out 2s;
+    -ms-transition: all ease-in-out 2s;
+    -o-transition: all ease-in-out 2s;
+    right: 0px;
+  }
+  .checkbox:checked ~ .menu {
+    visibility: hidden;
+  }
+  .sidebar {
+    transform: translateX(0vw);
+    position: relative;
+    right: -186px;
+    width: 40vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    z-index: 5;
+    -webkit-transform: translateX(0vw);
+    -moz-transform: translateX(0vw);
+    -ms-transform: translateX(0vw);
+    -o-transform: translateX(0vw);
+  }
+  .ion-close-round {
+    position: absolute;
+    left: -22px;
+    top: 2px;
+    font-size: 23px;
+  }
+  .sidebar img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .sidebar h3 {
+    margin-top: 20px;
+  }
+  ._pages {
+    list-style: none;
+    text-align: left;
+  }
+  ._pages li {
+    padding: 5px;
+    margin-top: 10px;
+  }
+  ._pages li:hover {
+    border-bottom: 1px solid #21243d;
+    transition: all ease-in-out 2s;
+    -webkit-transition: all ease-in-out 2s;
+    -moz-transition: all ease-in-out 2s;
+    -ms-transition: all ease-in-out 2s;
+    -o-transition: all ease-in-out 2s;
+  }
+
+  .blogs {
+    width: 90%;
+  }
+  .blogs-header {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+  }
+  .blog-header {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  .date,
+  .group {
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 0px;
+  }
+  .b-text {
+    font-size: 16px;
+    line-height: 23px;
+    width: 100%;
+  }
+  /* ? Footer (Social Media) */
+  .footer {
+    padding: 20% 0 7% 0;
+  }
+}
