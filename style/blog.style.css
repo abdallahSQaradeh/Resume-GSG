@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap");
+html {
+  font-family: "Heebo", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+/* ? Header */
+nav .pages {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 60px;
+}
+.pages li:hover {
+  transition: all ease-in-out 1s;
+  transform: scaleZ(2);
+  -ms-transform: scaleZ(2);
+  -o-transform: scaleZ(2);
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
+  -webkit-transform: scaleZ(2);
+  -moz-transform: scaleZ(2);
+}
+
+.active {
+  color: #ff6464;
+}
+nav .menu {
+  display: none;
+  font-size: 50px;
+  float: right;
+}
+
+.pages li {
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0px;
+}
+.sidebar {
+  display: none;
+}
+.container {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.blogs {
+  justify-self: center;
+  align-self: center;
+  width: 60%;
+}
+.blogs-header {
+  margin: 7% 0 5% 0;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.blog-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-header {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+  color: #21243d;
+}
+.b-date-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.date,
+.group {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+}
+.vertical-bar,
+.group {
+  margin-left: 15px;
+}
+.date {
+  color: #21243d;
+}
+.group {
+  color: #8695a4;
+}
+.b-text {
+  margin-top: 10px;
+  width: 70%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #21243d;
+}
+.vertical-bar {
+  margin: 0 10px;
+  width: 1px;
+  height: 15px;
+  border: 0px solid black;
+  background-color: black;
+}
+.horizantal-spliter {
+  margin: 20px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+/* ? Footer (Social Media) */
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10% 0 5% 0;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.instagram,
+.twitter,
+.linkedIn {
+  margin-left: 40px;
+}
+.copy-right {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+}
