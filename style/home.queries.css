@@ -5,6 +5,65 @@
   nav .menu {
     display: block;
   }
+  .checkbox:checked ~ .sidebar {
+    transition: all ease-in-out 2s;
+    -webkit-transition: all ease-in-out 2s;
+    -moz-transition: all ease-in-out 2s;
+    -ms-transition: all ease-in-out 2s;
+    -o-transition: all ease-in-out 2s;
+    right: 0px;
+  }
+  .checkbox:checked ~ .menu {
+    visibility: hidden;
+  }
+  .sidebar {
+    transform: translateX(0vw);
+    position: relative;
+    right: -186px;
+    width: 40vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    z-index: 5;
+    -webkit-transform: translateX(0vw);
+    -moz-transform: translateX(0vw);
+    -ms-transform: translateX(0vw);
+    -o-transform: translateX(0vw);
+  }
+  .ion-close-round {
+    position: absolute;
+    left: -22px;
+    top: 2px;
+    font-size: 23px;
+  }
+  .sidebar img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .sidebar h3 {
+    margin-top: 20px;
+  }
+  ._pages {
+    list-style: none;
+    text-align: left;
+  }
+  ._pages li {
+    padding: 5px;
+    margin-top: 10px;
+  }
+  ._pages li:hover {
+    border-bottom: 1px solid #21243d;
+    transition: all ease-in-out 2s;
+    -webkit-transition: all ease-in-out 2s;
+    -moz-transition: all ease-in-out 2s;
+    -ms-transition: all ease-in-out 2s;
+    -o-transition: all ease-in-out 2s;
+  }
+
   .info {
     flex-direction: column-reverse;
     justify-content: center;

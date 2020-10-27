@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="container">
-      <nav>
+      <!--<nav>
         <ul class="pages">
           <li>Works</li>
           <li>Blog</li>
@@ -22,6 +22,41 @@
         </ul>
         <div class="menu">
           <img src="./assest/icons/menu.svg" alt="menu" />
+        </div>
+      </nav>-->
+      <nav>
+        <ul class="pages">
+          <li class="active"><a href="./Blog.html">Blog</a></li>
+          <li><a href="./Work.html">Works</a></li>
+          <li><a href="./index.html">Contact</a></li>
+        </ul>
+        <input
+          type="checkbox"
+          name="sidebar"
+          class="checkbox"
+          id="click"
+          hidden
+        />
+        <div class="menu">
+          <label for="click">
+            <img src="./assest/icons/menu.svg" alt="menu" />
+          </label>
+        </div>
+
+        <div class="sidebar">
+          <label for="click">
+            <div class="ion-close-round"></div>
+          </label>
+
+          <img src="./assest/images/profile.jpg" alt="profile" />
+          <h3 class="name">John</h3>
+          <div class="horizantal-spliter hr-1"></div>
+          <ul class="_pages">
+            <li class="active"><a href="./Blog.html">Blog</a></li>
+            <li><a href="./Work.html">Works</a></li>
+            <li><a href="./index.html">Contact</a></li>
+          </ul>
+          <div class="horizantal-spliter hr-1"></div>
         </div>
       </nav>
       <header class="info">

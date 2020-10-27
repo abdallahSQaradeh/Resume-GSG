@@ -8,6 +8,19 @@ html {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+a:active,
+a:visited,
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #ff6464;
+}
 .container {
   width: 100%;
   height: auto;
